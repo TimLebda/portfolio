@@ -23,6 +23,11 @@ h2 {
   color: black;
 }
 
+h3 {
+  font-size: 16px;
+  color: black;
+}
+
 p, li {
   font-family: helvetica;
   font-size: 18px;
