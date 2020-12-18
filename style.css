@@ -9,6 +9,9 @@ body {
 
 img {
   width: 100%;
+  padding: 25px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 h1 {
@@ -28,10 +31,14 @@ h3 {
   color: black;
 }
 
-p, li {
+p, li, a {
   font-family: helvetica;
   font-size: 18px;
   color: black;
+}
+
+a {
+  font-family: cursive;
 }
 
 footer, title {
@@ -45,6 +52,7 @@ footer, title {
 .pageContainer {
   float: center;
   width: auto;
+  height: auto;
   margin: 50px;
   margin-left: 200px;
   margin-right: 200px;
