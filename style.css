@@ -12,6 +12,7 @@ img {
 }
 
 h1 {
+  text-align: center;
   font-family: Arial, sans-serif;
   font-size: 32px;
   color: navy;
@@ -28,6 +29,12 @@ p, li {
   color: black;
 }
 
+footer, title {
+  text-align: center;
+  width: auto;
+  color: white;
+}
+
 /* Custom Classes */
 
 .pageContainer {
@@ -38,8 +45,8 @@ p, li {
   margin-right: 200px;
 }
 
-.footerText {
-  float: center;
-  width: auto;
-  color: white;
+.pageBody {
+  text-align: justify;
+  min-width: 400px;
+  max-width: 1200px;
 }
