@@ -32,13 +32,12 @@ h3 {
 }
 
 p, li, a {
-  font-family: helvetica;
   font-size: 18px;
   color: black;
 }
 
-a {
-  font-family: cursive;
+p, li {
+  font-family: helvetica;
 }
 
 footer, title {
@@ -48,6 +47,10 @@ footer, title {
 }
 
 /* Custom Classes */
+
+.pageLinks {
+  font-family: cursive;
+}
 
 .pageContainer {
   float: center;
