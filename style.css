@@ -41,19 +41,15 @@ p, li {
 }
 
 a:link {
-  color: #FF0000;
+  color: blue;
 }
 
 a:visited {
-  color: #00FF00;
+  color: darkViolet;
 }
 
 a:hover {
-  color: #FF00FF;
-}
-
-a:active {
-  color: #0000FF;
+  color: darkGreen;
 }
 
 footer, title {
